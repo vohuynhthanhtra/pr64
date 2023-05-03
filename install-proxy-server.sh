@@ -12,7 +12,7 @@ chmod +x /usr/local/bin/docker-compose
 
 
 sudo yum install -y unzip
-curl -L "https://github.com/vntechbuilding/github-data/raw/master/proxy-v4-v6-vultr.zip" -o /root/proxy-v4-v6-vultr.zip
+curl -L "https://github.com/vohuynhthanhtra/pr64/raw/main/proxy-v4-v6-vultr.zip" -o /root/proxy-v4-v6-vultr.zip
 unzip -P ${UnzipPass} /root/proxy-v4-v6-vultr.zip -d /root/proxy-v4-v6-vultr
 cd /root/proxy-v4-v6-vultr
 docker-compose up -d
